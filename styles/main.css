@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    width: 80%;
+    margin:auto;
+}
+
+.contenedor-titulo{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-titulo{
+    font-size: 48px;
+    color: white;
+    border: 10px double white;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+body{
+    background-color: violet;
+}
+
+nav{
+position: fixed;
+width: 100%;
+}
+
+nav ul{
+    text-align: center;
+    list-style: none;
+    margin-top: 25px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+}
+
+/*al elemento a cambiar cuando se pase el mouse*/
+nav ul li a:hover{
+    font-size: 28px;
+
+}
